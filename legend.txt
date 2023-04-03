@@ -1,0 +1,25 @@
+Here is an exemple of script:
+
+A: 815 321 1484 166 5 0
+A: 1589 836 811 936 2 0
+A: 1000 500 90 10 5 0
+A: 202 894 103 34 3 0
+A: 1914 452 19 837 9 9
+A: 1850 910 93 98 9 9
+T: 93 47 100
+T: 500 800 150
+T: 900 400 200
+
+Each line represent an entity.
+
+Aircrafts:
+    The lines beggining by "A" represent aircrafts.
+    The first two integers represent the aircraft's departure coordinates (x and y).
+    The next two integers represent the aircrafts's arrival coordinates (x and y).
+    The fifth integer is the speed of the aircraft.
+    The last integer is the delay (in seconds) before the aircraft takes off.
+
+Control towers:
+    The lines beggining by "T" represent control towers.
+    The first two integers represent the coordinates of the tower (x and y).
+    The last integer is the radius of the control area of the tower (in pixels).

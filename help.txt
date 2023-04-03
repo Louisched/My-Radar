@@ -1,0 +1,6 @@
+USAGE
+    ./my_radar [OPTIONS] path_to_script
+    path_to_script      The path to the script file.
+
+OPTIONS
+    -h                  print the usage and quit.
